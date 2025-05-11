@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head
+<body>
+       <!-- Navegación -->
+    <nav class="navbar">
+        <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+        <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección perfil -->
+     <section class="quien" id="inicio">
+        <div>
+            <h1>Gerardo Antonio Castellanos Torres</h1>
+            <p>Desarrollador Web Full Stack</p>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi">
+        <div class="acerca-de">
+            <img src="./images/1.png" alt="Tu foto">
+            <div>
+                <h2>Sobre mí</h2>
+                <p>Soy un desarrollador de Software en formación con interés por el mundo de la tecnología. Mi enfoque autodidacta en la investigación me impulsa constanteme y actualmente estoy formalizando mis conocimientos a través de una tecnicatura en Software Development.</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <h2>Tecnologías y Hobbies</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Conocimientos</th>
+                <th>Deseo Aprender</th>
+                <th>Hobbies</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul>
+                        <li>[HTML, CSS y JAVASCRIPT]</li>
+                        <li>[PYTHON, JAVA]</li>
+                        <li>Base de Datos, SQL Server,MySQL ]</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>TYPESCRIPT, ANGULAR</li>
+                        <li>LINUX, RUST</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Música</li>
+                        <li>Futbol, Beisbol</li>
+                        <li>Cine</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- Proyectos -->
+     <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+            <li>
+                <h3>ABE</h3>
+                <p>Alquiler de bienes muebles <a href="[Enlace al   proyecto 1]">Ver proyecto</a></p>
+            </li>
+            <li>
+                <h3>TTV</h3>
+                <p>Tradind de titulos valores <a href="[Enlace al   proyecto 2]">Ver proyecto</a></p>
+            </li>
+            <li>
+                <h3>E-commerce</h3>
+                <p>Lorem ipsum dolor sit aam error eveniet magnam   eaque commodi!  ,<a href="[Enlace al proyecto 3]">Ver proyecto</a></p>
+            </li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- Contacto -->
+     <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <p>Déjame un mensaje:</p>
+                <div>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div>
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" id="apellido" name="apellido">
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="telefono">Teléfono:</label><br>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="30"></textarea>
+                </div>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <p>Conéctate conmigo:</p>
+            <div>
+                <a href="https://github.com/UsuarioDeGitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nombredeusuario"><i class="fab fa-linkedin"></i></a>
+                <a href="https://X.com/UsuarioDeTwitter"><i class="fab fa-twitter"></i></a>         
+            </div>
+            <hr>
+            <p>&copy; 2025 GCASTELT. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

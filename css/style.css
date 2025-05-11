@@ -1,0 +1,235 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+/* Estilos generales */
+body {
+    font-family: sans-serif;       /* Fuente de letra base */
+    
+    background-color: #f4f4f4;  /* Color de fondo general */
+    color: #333;                /* Color de texto principal */
+    line-height: 1.6;             /* Espaciado entre líneas para mejor legibilidad */
+}
+
+
+hr {
+    border: 1px solid #ddd;     /* Estilo de las líneas divisorias */
+    margin: 2em 0;                /* Espacio arriba y abajo de las líneas */
+}
+
+h2 {
+    color: #054a94;             /* Color de los encabezados de sección */
+    text-align: center;           /* Centra los encabezados */
+    margin-bottom: 1em;            /* Espacio debajo de los encabezados */
+}
+
+
+ul {
+    list-style: none;              /* Elimina los puntos de las listas */
+    padding: 0;                    /* Elimina el relleno predeterminado de las listas */
+}
+
+/* Navegación */
+nav {
+    background-color: #5c4e4f;  /* Fondo de la barra de navegación */
+    color: white;               /* Color del texto de la navegación */
+    padding: 1em 0;               /* Espacio arriba y abajo de la navegación */
+    text-align: center;           /* Centra los elementos de la navegación */
+    position: sticky;             /* Fija la navegación en la parte superior al hacer scroll */
+    top: 0;                       /* Asegura que se pegue a la parte superior */
+    z-index: 100;                 /* Asegura que la navegación esté por encima de otros elementos */
+}
+
+nav ul li {
+    display: inline;              /* Muestra los elementos de la lista en línea */
+    margin: 0 1em;                /* Espacio entre los elementos de la lista */
+}
+
+nav a {
+    color: white;               /* Color de los enlaces de la navegación */
+    text-decoration: none;        /* Elimina el subrayado de los enlaces */
+    padding: 0.5em 1em;           /* Espacio alrededor de los enlaces */
+}
+
+nav a:hover {
+    color: #007bff;             /* Cambia el color al pasar el ratón */
+}
+
+/* Sección perfil */
+.quien {
+    background-color: #e9ecef;  /* Fondo de la sección de perfil */
+    padding: 5em 2em;             /* Espacio alrededor del contenido */
+    text-align: center;           /* Centra el texto */
+}
+
+.quien h1 {
+    font-size: 2.5em;              /* Tamaño del encabezado principal */
+    margin-bottom: 0.5em;          /* Espacio debajo del título */
+}
+
+.quien p {
+    font-size: 1.2em;              /* Tamaño del párrafo de descripción */
+    color: #555;                 /* Color del texto de la descripción */
+}
+
+/* Sobre mí */
+#sobre-mi {
+    padding: 3em 2em;               /* Espacio alrededor del contenido */
+}
+
+.acerca-de {
+    display: flex;                  /* Utiliza flexbox para organizar la imagen y el texto */
+    align-items: center;            /* Centra verticalmente los elementos */
+    gap: 2em;                       /* Espacio entre la imagen y el texto */
+    max-width: 800px;               /* Ancho máximo del contenedor */
+    margin: 0 auto;                 /* Centra el contenedor en la página */
+}
+
+.acerca-de img {
+    max-width: 150px;               /* Ancho máximo de la imagen */
+    border-radius: 5px;             /* Bordes ligeramente redondeados */
+}
+
+/* Tecnologías y Hobbies */
+table {
+    width: 80%;                     /* Ancho de la tabla */
+    margin: 2em auto;               /* Centra la tabla */
+    border-collapse: collapse;      /* Colapsa los bordes de las celdas */
+}
+
+th, td {
+    border: 1px solid #cfcaca;       /* Bordes de las celdas */
+    padding: 0.8em;                 /* Espacio dentro de las celdas */
+    text-align: left;               /* Alinea el texto a la izquierda */
+}
+
+th {
+    background-color: #dbcaca;    /* Fondo del encabezado de la tabla */
+}
+
+/* Proyectos */
+#proyectos {
+    padding: 3em 2em;               /* Espacio alrededor del contenido */
+    text-align: center;             /* Centra los elementos */
+}
+
+#proyectos ul {
+    max-width: 800px;               /* Ancho máximo de la lista de proyectos */
+    margin: 0 auto;                 /* Centra la lista */
+}
+
+#proyectos li {
+    background-color: white;       /* Fondo de cada proyecto */
+    padding: 1.5em;                  /* Espacio dentro de cada proyecto */
+    margin-bottom: 1em;             /* Espacio entre proyectos */
+    border-radius: 5px;             /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: left;               /* Alinea el texto a la izquierda dentro de cada proyecto */
+}
+
+#proyectos h3 {
+    color: #007bff;               /* Color del título del proyecto */
+    margin-top: 0;                  /* Elimina el margen superior predeterminado */
+}
+
+#proyectos a {
+    color: #007bff;               /* Color de los enlaces de los proyectos */
+    text-decoration: none;          /* Elimina el subrayado */
+}
+
+#proyectos a:hover {
+    text-decoration: underline;     /* Subraya al pasar el ratón */
+}
+
+/* Contacto */
+#contacto {
+    padding: 3em 2em;               /* Espacio alrededor del contenido */
+    text-align: center;             /* Centra el contenido */
+    background-color: #a9aeb3;   /* Fondo de la sección de contacto */
+}
+
+.contact-form {
+    max-width: 500px;              /* Ancho máximo del formulario */
+    margin: 0 auto;                /* Centra el formulario */
+    padding: 2em;                  /* Espacio dentro del formulario */
+    background-color: white;     /* Fondo del formulario */
+    border-radius: 5px;             /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);   /* Sombra suave */
+    text-align: left;                             /* Alinea el texto del formulario a la izquierda */
+}
+
+.contact-form div {
+    margin-bottom: 1em; /* Espacio entre los elementos del formulario */
+}
+
+.contact-form label {
+    display: block;             /* Hace que las etiquetas ocupen toda la línea */
+    margin-bottom: 0.5em;       /* Espacio debajo de las etiquetas */
+    font-weight: bold;          /* Texto de la etiqueta en negrita */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"] {
+    width: 90%;                     /* Ancho completo de los campos de entrada */
+    padding: 0.8em;                  /* Espacio dentro de los campos */
+    border: 1px solid #ddd;       /* Borde de los campos */
+    border-radius: 3px;              /* Bordes redondeados */
+    box-sizing: border-box;          /* Incluye el relleno y el borde en el ancho total */
+}
+
+.contact-form button[type="submit"] {
+    background-color: #007bff;      /* Color de fondo del botón */
+    color: white;                   /* Color del texto del botón */
+    padding: 1em 2em;                 /* Espacio dentro del botón */
+    border: none;                     /* Elimina el borde */
+    border-radius: 5px;              /* Bordes redondeados */
+    cursor: pointer;                 /* Cambia el cursor al pasar por encima */
+    font-size: 1em;                  /* Tamaño de la fuente del botón */
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #0056b3;           /* Cambia el color al pasar el ratón */
+}
+
+.contact-form textarea {
+    width: 100%;                    /* Ancho completo */
+    padding: 0.8em;                 /* Espacio dentro del campo */
+    border: 1px solid #ddd;       /* Borde */
+    border-radius: 3px;             /* Bordes redondeados */
+    box-sizing: border-box;         /* Incluye padding y border en el ancho */
+    font-family: sans-serif;        /* Asegura la misma fuente que el resto del formulario */
+    font-size: 1em;                 /* Tamaño de la fuente */
+    line-height: 1.6;               /* Espaciado entre líneas */
+    resize: vertical;               /* Permite al usuario cambiar la altura verticalmente */
+}
+
+/* Footer */
+footer {
+    background-color: #333;         /* Fondo del pie de página */
+    color: white;                   /* Color del texto del pie de página */
+    padding: 2em 0;                   /* Espacio arriba y abajo */
+    text-align: center;               /* Centra el texto */
+    font-size: 0.9em;                 /* Tamaño de la fuente */
+}
+
+footer div > div a {                  /* Estilos para los iconos de redes sociales en el footer */
+    color: white;                   /* Color de los iconos */
+    margin: 0 0.5em;                  /* Espacio entre iconos */
+    font-size: 1.5em;                 /* Tamaño de los iconos */
+    text-decoration: none;            /* Elimina el subrayado */
+}
+
+footer div > div a:hover {
+    color: #007bff;                 /* Cambia el color al pasar el ratón */
+}
+
+footer hr {
+    border-color: #555;             /* Color de la línea divisoria en el footer */
+    margin: 1em auto;                 /* Centra la línea */
+    width: 80%;                       /* Ancho de la línea */
+}
